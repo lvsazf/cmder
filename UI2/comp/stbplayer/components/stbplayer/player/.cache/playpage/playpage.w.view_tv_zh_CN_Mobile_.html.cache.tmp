@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cEzI7rm" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cEzI7rm" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.btn.cEzI7rm{margin-right: 10px}</style>  
+  <style xmlns="" __cid="cEzI7rm" class="cEzI7rm">video{ z-index:65535!important; }</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad;onParamsReceive:modelParamsReceive" __cid="cEzI7rm" class="cEzI7rm"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcIJvARj-iosstatusbar cEzI7rm" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cEzI7rm"> 
+    <div class="x-panel-content cEzI7rm" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cEzI7rm"/>  
+    <div class="x-panel-bottom cEzI7rm" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cEzI7rm"> 
+      <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group cEzI7rm" xid="buttonGroup1" style="margin-bottom:50px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cEzI7rm"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default x-focusable cEzI7rm" xid="play" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:playClick" data-config="{&quot;label&quot;:&quot;播放&quot;}" __cid="cEzI7rm"> 
+          <i xid="i1" __cid="cEzI7rm" class="cEzI7rm"/>  
+          <span xid="span1" __cid="cEzI7rm" class="cEzI7rm">播放</span> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default x-focusable cEzI7rm" xid="pause" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:pauseClick" data-config="{&quot;label&quot;:&quot;暂停&quot;}" __cid="cEzI7rm"> 
+          <i xid="i2" __cid="cEzI7rm" class="cEzI7rm"/>  
+          <span xid="span2" __cid="cEzI7rm" class="cEzI7rm">暂停</span> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default x-focusable cEzI7rm" xid="close" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:closeClick" data-config="{&quot;label&quot;:&quot;关闭&quot;}" __cid="cEzI7rm"> 
+          <i xid="i3" __cid="cEzI7rm" class="cEzI7rm"/>  
+          <span xid="span3" __cid="cEzI7rm" class="cEzI7rm">关闭</span> 
+        </a> 
+      </div> 
+    </div>  
+    <style __cid="cEzI7rm" class="cEzI7rm">.x-panel.pcIJvARj-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcIJvARj-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcIJvARj-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcIJvARj-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcIJvARj-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcIJvARj-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcIJvARj-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcIJvARj-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcIJvARj-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+  </div> 
+</div>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window c3umE3e" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="c3umE3e" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel,">  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="c3umE3e" class="c3umE3e"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcJ7RB32-iosstatusbar c3umE3e" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c3umE3e"> 
+    <div class="x-panel-content c3umE3e" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c3umE3e"/>  
+    <div class="x-panel-bottom c3umE3e" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c3umE3e"> 
+      <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group c3umE3e" xid="buttonGroup1" style="margin-bottom:50px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="c3umE3e"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default c3umE3e" xid="play" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:playClick" data-config="{&quot;label&quot;:&quot;播放&quot;}" __cid="c3umE3e"> 
+          <i xid="i1" __cid="c3umE3e" class="c3umE3e"/>  
+          <span xid="span1" __cid="c3umE3e" class="c3umE3e">播放</span> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default c3umE3e" xid="pause" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:pauseClick" data-config="{&quot;label&quot;:&quot;暂停&quot;}" __cid="c3umE3e"> 
+          <i xid="i2" __cid="c3umE3e" class="c3umE3e"/>  
+          <span xid="span2" __cid="c3umE3e" class="c3umE3e">暂停</span> 
+        </a> 
+      </div> 
+    </div>  
+    <style __cid="c3umE3e" class="c3umE3e">.x-panel.pcJ7RB32-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcJ7RB32-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcJ7RB32-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcJ7RB32-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcJ7RB32-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcJ7RB32-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcJ7RB32-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcJ7RB32-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcJ7RB32-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+  </div> 
+</div>

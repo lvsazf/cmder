@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+	<element name="$UI/comp/stbplayer/components/stbplayer/stbplayer" tag-name="div" icon="stbplayer.png" text="视频播放器"
+		binding-component="$UI/comp/stbplayer/components/stbplayer/stbplayer" 
+        component-type="formControl"  resizable="false">
+		<properties>
+			<property name="xid" text="编号" required="false"/>
+			<property name="url" text="固定资源路径" />
+		</properties>
+		<property-editors>
+		</property-editors>		
+		<toolbar>
+		</toolbar>
+		<events>
+			
+		</events>
+		
+		<templates>
+		   <template name="default"><![CDATA[ 
+				 <div component="$UI/comp/stbplayer/components/stbplayer/stbplayer" class="stb_div">
+    				<a id="open_dialog" component="$model/UI2/system/components/justep/button/button"> 
+      					<i></i>
+   						<span class="x-focusable">播放</span>
+   					</a>
+  				</div>
+		   ]]></template>
+		</templates>
+	</element>
+	
+</elements>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!-- 组件注册文件 -->
+	<component-reg-file>../../components/*.components.xml</component-reg-file>
+</config>
