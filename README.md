@@ -1,0 +1,1 @@
+# some settings of cmder
